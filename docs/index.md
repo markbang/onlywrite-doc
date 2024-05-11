@@ -15,7 +15,7 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: 高速
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
