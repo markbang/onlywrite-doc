@@ -4,7 +4,10 @@ layout: home
 hero:
   name: "仅记API"
   text: "仅记App的官方文档"
-  tagline: My great project tagline
+  tagline: onlywrite的一切
+  image:
+    src: /logo-all.png
+    alt: onlywrite
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,3 +25,23 @@ features:
     details: 采用RESTFUL风格设计，简单易用
 ---
 
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #fd9620 26%, #ab7c44);
+  --vp-home-hero-image-background-image: linear-gradient(30deg, #fa9943, #eeecec);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+</style>
