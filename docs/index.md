@@ -10,11 +10,11 @@ hero:
     alt: onlywrite
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: API 文档
+      link: /apis/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 关于
+      link: /about/
 
 features:
   - title: 高速
