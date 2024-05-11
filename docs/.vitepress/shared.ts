@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { search as ZhSearch } from './zh'
 
 export const shared = defineConfig({
-  title: 'VitePress',
+  title: '仅记',
 
   lastUpdated: true,
   cleanUrls: true,
@@ -9,7 +10,9 @@ export const shared = defineConfig({
 
   /* prettier-ignore */
   head: [
-    ],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+  ],
 
   themeConfig: {
     logo: '/logo.png',
@@ -19,7 +22,10 @@ export const shared = defineConfig({
     ],
 
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        locales: { ...ZhSearch }
+      }
     },
     
   }

@@ -15,10 +15,10 @@ hero:
 
 features:
   - title: 高速
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 使用Gin+Gorm开发，高速响应
   - title: 开放
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 支持所有数据的导入导出
   - title: RESTFUL 风格
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 采用RESTFUL风格设计，简单易用
 ---
 
