@@ -1,9 +1,10 @@
 ---
+# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "仅记API"
-  text: "仅记App的官方文档"
+  name: "OnlyWrite API"
+  text: "Official documentation for the OnlyWrite App"
   tagline: My great project tagline
   actions:
     - theme: brand
@@ -14,11 +15,11 @@ hero:
       link: /api-examples
 
 features:
-  - title: 高速
+  - title: Fast
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 开放
+  - title: Open
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: RESTFUL 风格
+  - title: RESTFUL Style
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
